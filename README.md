@@ -1,4 +1,4 @@
-# BDWeb – Blood Donation Static Website
+# Vercivo – Blood Donation Static Website
 
 Static, frontend-only website for a blood donation organization. It includes a landing page, About, Donate, Contact, and policy pages with responsive layout, client-side validation, and a small UI enhancement (custom cursor) — all without a backend.
 
