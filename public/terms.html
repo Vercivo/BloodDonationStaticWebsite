@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blood Donation - Terms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    :root { --font-body: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; --font-heading: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    body { font-family: var(--font-body); font-weight: 300; line-height: 1.6; }
+    h1, h2, h3, h4, h5, h6, .navbar-brand { font-family: var(--font-heading); font-weight: 700; letter-spacing: .2px; }
+
+    
+    body.premium-cursor-enabled, a, button, .btn, input, textarea, select, label { cursor: none !important; }
+    .pcursor, .pcursor-dot { position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); }
+    .pcursor { width: 28px; height: 28px; border: 2px solid rgba(220,53,69,.9); border-radius: 50%; box-shadow: 0 0 0 8px rgba(220,53,69,.15); background: rgba(220,53,69,.04); transition: transform 120ms ease, opacity 200ms ease, background-color 120ms ease, border-color 120ms ease, box-shadow 120ms ease; opacity: 1; }
+    .pcursor-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(220,53,69,.95); transition: transform 120ms ease, opacity 200ms ease; opacity: 1; }
+    .pcursor.is-link { transform: translate(-50%, -50%) scale(1.5); background: rgba(220,53,69,.12); box-shadow: 0 0 0 12px rgba(220,53,69,.12); }
+    .pcursor.is-down { transform: translate(-50%, -50%) scale(0.9); }
+    .pcursor-hidden { opacity: 0 !important; }
+    .pcursor-dot.pcursor-hidden { opacity: 0 !important; }
+    @media (pointer: coarse) { .pcursor, .pcursor-dot { display: none !important; } body { cursor: auto !important; } }
+    @media (prefers-reduced-motion: reduce) { .pcursor, .pcursor-dot { transition: none !important; } }
+
+    
+    .btn-whatsapp { --wa:#25D366; --wa-dark:#1DA851; background-color: var(--wa); border-color: var(--wa); color:#fff; display:inline-flex; align-items:center; gap:.35rem; font-weight:600; box-shadow: 0 .25rem .5rem rgba(37,211,102,.2); }
+    .btn-whatsapp:hover, .btn-whatsapp:focus { background-color: var(--wa-dark); border-color: var(--wa-dark); color:#fff; box-shadow: 0 .5rem 1rem rgba(37,211,102,.25), 0 0 0 .2rem rgba(37,211,102,.2); }
+    .btn-whatsapp:active { background-color: var(--wa-dark); border-color: var(--wa-dark); }
+    .btn-whatsapp .bi-whatsapp { font-size: 1.05em; }
+
+    
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    .terms-section + .terms-section { margin-top: 2rem; }
+    .callout { background: #f8f9fa; border-left: 4px solid #dc3545; padding: 1rem; }
+  </style>
+</head>
+<body id="top">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="../assets/images/logo.png" alt="Blood Donation logo" width="28" height="28" class="me-2">
+        <span>Blood Donation</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-whatsapp btn-sm mt-2 mt-lg-0" href="https://wa.me/923000000000?text=Hello%21%20I%27d%20like%20to%20donate%20blood." target="_blank" rel="noopener" aria-label="Chat on WhatsApp (opens in new tab)">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container mb-4">
+      <h1 class="fw-bold">Terms and Conditions</h1>
+      <p class="text-muted mb-1">Last updated: 5 September 2025</p>
+      <p class="mb-0">Please read these Terms carefully. By using our website and services, you agree to these Terms.</p>
+    </div>
+
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-3">
+          <div class="card sticky-top" style="top: 6rem;">
+            <div class="card-body">
+              <h6 class="text-uppercase small">On this page</h6>
+              <ul class="list-unstyled toc mb-0">
+                <li><a href="#acceptance">Acceptance</a></li>
+                <li><a href="#eligibility">Eligibility</a></li>
+                <li><a href="#accounts">Registration</a></li>
+                <li><a href="#donations">Donations</a></li>
+                <li><a href="#conduct">Prohibited Conduct</a></li>
+                <li><a href="#scheduling">Scheduling</a></li>
+                <li><a href="#communications">Communications</a></li>
+                <li><a href="#thirdparty">Third‑Party Services</a></li>
+                <li><a href="#disclaimer">Disclaimers</a></li>
+                <li><a href="#liability">Limitation of Liability</a></li>
+                <li><a href="#indemnity">Indemnification</a></li>
+                <li><a href="#law">Governing Law</a></li>
+                <li><a href="#changes">Changes</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <section id="acceptance" class="terms-section">
+            <h2 class="h4 fw-bold">1) Acceptance of Terms</h2>
+            <p>By accessing or using our website and related services, you agree to be bound by these Terms and our <a href="privacy.html">Privacy Policy</a>. If you do not agree, do not use the services.</p>
+          </section>
+
+          <section id="eligibility" class="terms-section">
+            <h2 class="h4 fw-bold">2) Eligibility</h2>
+            <p>You must be capable of entering into a binding agreement in your jurisdiction and meet relevant health and age criteria to donate blood. Additional eligibility requirements may be set by hospitals and blood banks.</p>
+          </section>
+
+          <section id="accounts" class="terms-section">
+            <h2 class="h4 fw-bold">3) Registration & Accuracy</h2>
+            <p>When you provide information (e.g., via donor forms), you agree that it is accurate and up‑to‑date. You consent to being contacted for coordination of donations and related updates.</p>
+          </section>
+
+          <section id="donations" class="terms-section">
+            <h2 class="h4 fw-bold">4) Donations & Medical Information</h2>
+            <div class="callout small"><i class="bi bi-shield-exclamation me-2"></i>We do not provide medical advice. Always consult qualified medical professionals at the donation center.</div>
+            <p>We coordinate with verified hospitals and blood banks but are not responsible for clinical procedures, screenings, or outcomes. Final eligibility is determined by medical staff.</p>
+          </section>
+
+          <section id="conduct" class="terms-section">
+            <h2 class="h4 fw-bold">5) Prohibited Conduct</h2>
+            <ul>
+              <li>Misrepresenting identity, eligibility, or health information.</li>
+              <li>Interfering with site operation, security, or other users’ data.</li>
+              <li>Using the services for unlawful, harmful, or abusive activities.</li>
+            </ul>
+          </section>
+
+          <section id="scheduling" class="terms-section">
+            <h2 class="h4 fw-bold">6) Scheduling & Cancellations</h2>
+            <p>Appointment times and availability may change. If you cannot attend a scheduled donation, please notify us or the hosting center as soon as possible so your slot can be re‑allocated.</p>
+          </section>
+
+          <section id="communications" class="terms-section">
+            <h2 class="h4 fw-bold">7) Communications</h2>
+            <p>By providing your contact details, you consent to receive communications related to your donor registration, scheduling, and important updates. You can opt out of non‑essential messages at any time.</p>
+          </section>
+
+          <section id="thirdparty" class="terms-section">
+            <h2 class="h4 fw-bold">8) Third‑Party Services</h2>
+            <p>Our services may link to third‑party sites (e.g., WhatsApp). We are not responsible for their content, policies, or practices. Use of third‑party services is governed by their terms.</p>
+          </section>
+
+          <section id="disclaimer" class="terms-section">
+            <h2 class="h4 fw-bold">9) Disclaimers</h2>
+            <p>Services are provided on an “as is” and “as available” basis without warranties of any kind, to the extent permitted by law.</p>
+          </section>
+
+          <section id="liability" class="terms-section">
+            <h2 class="h4 fw-bold">10) Limitation of Liability</h2>
+            <p>To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, or punitive damages, or for any loss of data, use, or goodwill, arising from use of the services.</p>
+          </section>
+
+          <section id="indemnity" class="terms-section">
+            <h2 class="h4 fw-bold">11) Indemnification</h2>
+            <p>You agree to defend and indemnify us against claims arising from your misuse of the services or violation of these Terms.</p>
+          </section>
+
+          <section id="law" class="terms-section">
+            <h2 class="h4 fw-bold">12) Governing Law</h2>
+            <p>These Terms are governed by the laws of the jurisdiction where our organization is established, without regard to conflict of laws principles.</p>
+          </section>
+
+          <section id="changes" class="terms-section">
+            <h2 class="h4 fw-bold">13) Changes to Terms</h2>
+            <p>We may update these Terms from time to time. Your continued use after changes take effect constitutes acceptance of the updated Terms.</p>
+          </section>
+
+          <section id="contact" class="terms-section">
+            <h2 class="h4 fw-bold">14) Contact</h2>
+            <p>Questions about these Terms? Contact us:</p>
+            <ul class="mb-0">
+              <li>Email: <a href="mailto:info@blooddonate.example">info@blooddonate.example</a></li>
+              <li>Phone: <a href="tel:+923000000000">+92 300 0000000</a></li>
+              <li>Address: 123 Donation Ave, Lahore</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light mt-5" role="contentinfo">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a class="navbar-brand text-white" href="index.html">
+            <i class="bi bi-droplet-half text-danger me-2"></i>Blood Donation
+          </a>
+          <p class="text-white-50 small mt-2">Connecting generous donors with patients in need - quickly, safely, and with dignity.</p>
+          <div class="d-flex gap-2 mt-2">
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-outline-light btn-sm rounded-circle" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <a href="donate.html" class="btn btn-danger btn-sm mt-3">Donate Now</a>
+        </div>
+        <div class="col-6 col-md-2">
+          <h6 class="text-uppercase small">Explore</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a class="link-light text-decoration-none" href="index.html">Home</a></li>
+            <li><a class="link-light text-decoration-none" href="about.html">About</a></li>
+            <li><a class="link-light text-decoration-none" href="donate.html">Donate</a></li>
+            <li><a class="link-light text-decoration-none" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3">
+          <h6 class="text-uppercase small">Resources</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a class="link-light text-decoration-none" href="index.html#how">How it works</a></li>
+            <li><a class="link-light text-decoration-none" href="about.html#faqAccordion">FAQs</a></li>
+            <li><a class="link-light text-decoration-none" href="donate.html">Eligibility</a></li>
+            <li><a class="link-light text-decoration-none" href="contact.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-uppercase small">Contact</h6>
+          <p class="mb-1"><i class="bi bi-telephone me-2"></i><a href="tel:+923000000000" class="text-decoration-none link-light">+92 300 0000000</a></p>
+          <p class="mb-1"><i class="bi bi-envelope me-2"></i><a href="mailto:info@blooddonate.example" class="text-decoration-none link-light">info@blooddonate.example</a></p>
+          <p class="mb-1"><i class="bi bi-geo-alt me-2"></i>123 Donation Ave, Lahore</p>
+          <p class="text-white-50 mb-3">Mon-Sat: 9:00-18:00</p>
+          <div>
+            <a href="#top" class="link-light text-decoration-none"><i class="bi bi-arrow-up-circle me-1"></i>Back to top</a>
+          </div>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-2 small text-white-50">
+        <div>c 2025 Blood Donation Organization</div>
+        <div class="mt-2 mt-md-0">
+          <a href="privacy.html" class="text-decoration-none link-light">Privacy</a>
+          <span class="mx-2">·</span>
+          <a href="terms.html" class="text-decoration-none link-light">Terms</a>
+          <span class="mx-2">·</span>
+          <a href="accessibility.html" class="text-decoration-none link-light">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    
+    (() => {
+      const isCoarse = window.matchMedia('(pointer: coarse)').matches;
+      if (isCoarse) return;
+      const cursor = document.createElement('div');
+      const dot = document.createElement('div');
+      cursor.className = 'pcursor pcursor-hidden';
+      dot.className = 'pcursor-dot pcursor-hidden';
+      document.body.appendChild(cursor);
+      document.body.appendChild(dot);
+      document.body.classList.add('premium-cursor-enabled');
+
+      const move = (e) => {
+        const x = e.clientX; const y = e.clientY;
+        cursor.style.left = x + 'px'; cursor.style.top = y + 'px';
+        dot.style.left = x + 'px'; dot.style.top = y + 'px';
+        cursor.classList.remove('pcursor-hidden');
+        dot.classList.remove('pcursor-hidden');
+        const clickable = e.target && e.target.closest && e.target.closest('a, button, .btn, .nav-link, input, textarea, select, label');
+        if (clickable) cursor.classList.add('is-link'); else cursor.classList.remove('is-link');
+      };
+      const down = () => cursor.classList.add('is-down');
+      const up = () => cursor.classList.remove('is-down');
+      const leave = () => { cursor.classList.add('pcursor-hidden'); dot.classList.add('pcursor-hidden'); };
+      const enter = () => { cursor.classList.remove('pcursor-hidden'); dot.classList.remove('pcursor-hidden'); };
+
+      window.addEventListener('mousemove', move, { passive: true });
+      window.addEventListener('mousedown', down, { passive: true });
+      window.addEventListener('mouseup', up, { passive: true });
+      document.addEventListener('mouseleave', leave, { passive: true });
+      document.addEventListener('mouseenter', enter, { passive: true });
+    })();
+  </script>
+</body>
+</html>

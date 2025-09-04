@@ -1,0 +1,29 @@
+Options -Indexes
+DirectoryIndex public/index.html index.html index.htm
+<IfModule mod_negotiation.c>
+  Options -MultiViews
+  ForceType off
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  RewriteRule ^$ public/index.html [L]
+
+  RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+  RewriteRule ^(.*)$ public/$1 [L]
+
+  RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI}.html -f
+  RewriteRule ^(.+)$ public/$1.html [L]
+
+  RewriteCond %{REQUEST_URI} .+/$
+  RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI}index.html -f
+  RewriteRule ^(.*)/$ public/$1/index.html [L]
+</IfModule>
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
