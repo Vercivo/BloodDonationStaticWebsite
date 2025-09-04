@@ -131,3 +131,4 @@ Nginx (optional equivalent):
 ## License
 
 No license specified. Add one if you intend to share or open-source.
+# BloodDonationStaticWebsite
